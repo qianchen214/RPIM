@@ -65,7 +65,7 @@ result
 ```
 python infer_RPIM.py --weights ./resnet38_RPIM.pth --out_cam result/crf
 
-python get_sal.py --oricrfdir ./result/crf/crf_1.0 --out_sal ./result/crf_sal/crf_sal_l --theta 0.2 --alpha 0.000001 --beta 0.99999
+python get_sal.py --oricrfdir ./result/crf/crf_1.0 --out_sal ./result/crf_sal/crf_sal_l --theta 0.3 --alpha 0.0000002 --beta 0.9999
 
 python get_sal.py --oricrfdir ./result/crf/crf_4.0 --out_sal ./result/crf_sal/crf_sal_h --theta 0.3 --alpha 0.0000002 --beta 0.9999
 
